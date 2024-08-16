@@ -16,7 +16,13 @@ function lit() {
   var loro = document.getElementById("masa");
   var mensaje = btoa(nose);
   loro.innerHTML = mensaje;
-  console.log(mensaje); 
+  console.log(mensaje);
+  
+  if (nose == ""){
+    alert("Debes escribir algo");
+  } else {
+    //jijijiji
+  }
 }
 
 function lete() {
@@ -24,19 +30,19 @@ function lete() {
   var orol = document.getElementById("moso");
   var mensajito = atob(sise);
   orol.innerHTML = mensajito;
-  console.log(mensajito); 
+  console.log(mensajito);
+  
+  if (sise == ""){
+    alert(" Debes escribir algo");
+  } else {
+    //jijijiji
+  }
 }
 
 
- //ala.addEventListener("click", function(){
 
 
- function ala() {
-    var sise = document.getElementById("ala").value;
-    var mensajito = atob(sise);
-    orol.innerHTML = mensajito;
-    console.log(mensajito); 
-  }
+
 
 
 
